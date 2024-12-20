@@ -11,13 +11,20 @@ body {
 .calculator {
     display: flex;
     flex-direction: column;
-    border: 3px solid black;
+    border: 15px solid black;
     width: 30%;
     height: 80%;
+    background-color: black;
 }
 
 .screen {
     flex: .25;
+    background-color: lightgrey;
+    margin: 15px;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .buttons {
@@ -30,8 +37,22 @@ body {
 
 button {
     flex-basis: 25%;
+    border-radius: 5px;
+    font-size: 30px;
 }
 
 .zero {
     flex-basis: 50%;
+}
+
+.number {
+    background-color: green;
+}
+
+.blue {
+    background-color: lightseagreen;
+}
+
+.orange {
+    background-color: orange;
 }
